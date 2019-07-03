@@ -18,5 +18,8 @@
         "body-parser": "^1.19.0",
         "robotjs": "^0.5.1"
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "@types/ip": "^1.1.0",
+        "@types/ua-parser-js": "^0.7.33"
+    }
 }

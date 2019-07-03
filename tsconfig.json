@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "lib": [ "es6" ],
+        "removeComments": true,
+        "sourceMap": false
+    },
+
+    "files": [
+        "OsuTouchpad.ts"
+    ]
+
+}

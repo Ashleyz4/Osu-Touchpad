@@ -36,7 +36,7 @@
                 sendAjax("GET", "/getXY?x="+x+"&y="+y+"&width="+width+"&height="+height, null, null);
             });
             $("#modal").mousemove(function(e) {
-                if(!$(this).data('clicked'))
+                if(!$(this).data("clicked"))
                     return;
                 var offset = $(this).offset();
                 var x = e.pageX - offset.left;
@@ -54,12 +54,12 @@
                             successFunc();
                     },
                     error: function(err) { 
-                        alert('error'); },
+                        alert("error"); },
                     contentType: "application/json"
                 });
             }
             
-            sendAjax("POST", '/hi', null, null);
+            sendAjax("POST", "/hi", null, null);
         </script>
         
     </body>
