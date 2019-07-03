@@ -2,7 +2,8 @@
 A touchpad made specifically for Osu!
 
 # How to use
-Download the repo, extract it to a folder and use `npm install` to install the node modules. Then you can use `node OsuTouchpad.ts` to start the server. Connect to the IP shown on your phone or another computer (on the same network) and there you go!
+First, as my preferred method, use `ts-node` to start the app. `npm i -g ts-node typescript` </br>
+Download the repo, extract it to a folder and use `npm install` to install the node modules. Then you can use `ts-node OsuTouchpad.ts` to start the server. Connect to the IP shown on your phone or another computer (on the same network) and there you go!
 
 You can also click the mouse by just tapping the screen (Mobile only). 
 
